@@ -14,14 +14,14 @@ namespace Architecture.URPCore.EF
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <seealso cref="IntegrationServices.Files.Core.Interfaces.IRepository{T}" />
-    public abstract class EfRepository<T> : IRepository<T> where T : class/*, IEntity*/
+    public abstract class Repository<T> : IRepository<T> where T : class/*, IEntity*/
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="Repository{T}" /> class.
         /// </summary>
         /// <param name="unitOfWork">The unit of work.</param>
         /// <exception cref="ArgumentNullException">unitOfWork</exception>
-        public EfRepository(DbContext context)
+        public Repository(DbContext context)
         {
             _context = context;
 
