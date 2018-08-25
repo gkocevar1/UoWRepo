@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.URPCore.EF", "src\Architecture.URPCore.EF\Architecture.URPCore.EF.csproj", "{5D6FF075-635C-4DF1-9E45-8C77B49D4E71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8A38829-89AC-4AAF-BF5C-8AAEBC7178D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7FBBFE63-37BA-468E-A483-51C0BF5197A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{13826A10-46EE-4E1D-B070-C87CFB8F4D68}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D6FF075-635C-4DF1-9E45-8C77B49D4E71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6FF075-635C-4DF1-9E45-8C77B49D4E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6FF075-635C-4DF1-9E45-8C77B49D4E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6FF075-635C-4DF1-9E45-8C77B49D4E71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D6FF075-635C-4DF1-9E45-8C77B49D4E71} = {D8A38829-89AC-4AAF-BF5C-8AAEBC7178D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41ED9BD6-8B50-4CBD-A6BD-B4BBDE70FCE8}
+	EndGlobalSection
+EndGlobal
